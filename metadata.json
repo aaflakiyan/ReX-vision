@@ -1,0 +1,5 @@
+{
+  "name": "DeconstructAI: Autonomous Disassembly Architect",
+  "description": "A cutting-edge robotic task planner that uses Gemini Vision to analyze devices, generate safety-compliant disassembly workflows, and estimate material recovery value for the circular economy.",
+  "requestFramePermissions": []
+}
