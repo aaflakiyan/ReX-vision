@@ -1,6 +1,11 @@
-<!-- <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div> -->
+<div align="center">
+<img width="1497" height="851" alt="image" src="https://github.com/user-attachments/assets/5b3607d8-a62c-4705-b369-b2df31da9108" />
+</div> 
+
+
+**Turn any product screenshot into instant pricing + robotic intervention analysis (using Gemini 1.5 Flash Vision)**
+
+
 ### Features
 - Upload or drag-and-drop any component image 
 - Multimodal Gemini 1.5 Flash understands what the product is
