@@ -533,17 +533,17 @@ ${result.generatedCode}
                 <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black to-transparent pointer-events-none z-10"></div>
                 
                 <div className="space-y-1.5 opacity-80">
-                  <p>> SYSTEM_INIT... OK</p>
-                  <p>> CONNECTED_TO_GEMINI_V2.5</p>
+                  <p>&gt; SYSTEM_INIT... OK</p>
+                  <p>&gt; CONNECTED_TO_GEMINI_V2.5</p>
                   {result.citations?.length > 0 ? (
-                    <p className="text-cyan-700">> GROUNDING_DATA_FOUND [{result.citations.length} SOURCES]</p>
+                    <p className="text-cyan-700">&gt; GROUNDING_DATA_FOUND [{result.citations.length} SOURCES]</p>
                   ) : (
-                    <p className="text-amber-900">> GROUNDING_DATA_MISSING... USING_INTERNAL_MODELS</p>
+                    <p className="text-amber-900">&gt; GROUNDING_DATA_MISSING... USING_INTERNAL_MODELS</p>
                   )}
-                  {result && <p>> ANALYSIS_COMPLETE</p>}
-                  {result && <p className="text-green-800">> STRATEGY_LOCKED: {result.circularStrategy.strategy}</p>}
-                  {result.primaryAutomationChallenge && <p className="text-red-800">> WARN: {result.primaryAutomationChallenge.toUpperCase().replace(/\s/g, '_')}</p>}
-                  <p className="animate-pulse text-cyan-500">> WAITING_FOR_OPERATOR_CMD...</p>
+                  {result && <p>&gt; ANALYSIS_COMPLETE</p>}
+                  {result && <p className="text-green-800">&gt; STRATEGY_LOCKED: {result.circularStrategy.strategy}</p>}
+                  {result.primaryAutomationChallenge && <p className="text-red-800">&gt; WARN: {result.primaryAutomationChallenge.toUpperCase().replace(/\s/g, '_')}</p>}
+                  <p className="animate-pulse text-cyan-500">&gt; WAITING_FOR_OPERATOR_CMD...</p>
                 </div>
              </div>
           </div>

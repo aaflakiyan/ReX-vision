@@ -144,10 +144,10 @@ const App: React.FC = () => {
             </div>
             {/* Fake terminal logs for effect */}
             <div className="w-full max-w-md bg-black p-4 rounded font-mono text-xs text-green-500 opacity-80">
-               <p className="typing-effect"> > Vision_System_Active... OK</p>
-               <p className="typing-effect delay-100"> > Reading_Docs(RAG_Layer)... PENDING</p>
-               <p className="typing-effect delay-200"> > Google_Search(Pricing_Data)... SEARCHING</p>
-               <p className="typing-effect delay-300"> > Calculating_Economic_Viability...</p>
+               <p className="typing-effect">&gt; Vision_System_Active... OK</p>
+               <p className="typing-effect delay-100">&gt; Reading_Docs(RAG_Layer)... PENDING</p>
+               <p className="typing-effect delay-200">&gt; Google_Search(Pricing_Data)... SEARCHING</p>
+               <p className="typing-effect delay-300">&gt; Calculating_Economic_Viability...</p>
             </div>
           </div>
         )}
